@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Title';
-import GHSearch from './components/GitHubSearch';
+import GitHubSearch from './components/GitHubSearch';
 import { Container } from 'semantic-ui-react';
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
         <Header />
       </section>
       <section name='main'>
-        <GHSearch />
+        <GitHubSearch />
       </section>
     </Container>
   );
